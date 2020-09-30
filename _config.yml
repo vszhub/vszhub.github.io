@@ -1,0 +1,64 @@
+title: VSZHub
+description: The homepage of Songzi Vong
+url: https://vszhub.github.io
+avatar: /assets/img/avatar.jpeg
+paginate: 5
+permalink: pretty
+cover_image: /assets/img/cover.jpeg
+timezone: +0000
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+include:
+  - _pages
+  
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - scripts/
+
+# Optimize Jekyl SEO Tag
+twitter:
+  username: vszhub
+  card: summary
+logo: logo.png
+social:
+  name: Songzi Vong
+  links:
+    - https://twitter.com/vszhub
+    - https://github.com/vszhub
+google_site_verification: xxxxx
+lang: en
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+google_analytics: UA-179353572-1
+
+# Replace this value and uncomment to enable Disqus
+disqus: vszhub
+
+# Specify the author for blog posts
+author:
+  name: Songzi Vong
+  url: https://github.com/vszhub/
+  email: vszhub@gmail.com
+
+remote_theme: vszhub/not-pure-poole
