@@ -4,6 +4,6 @@ title: Toolbox
 permalink: /toolbox/
 ---
 
-## Photo Edition
+## Photo Editing
 
 - [Lunapic](https://www8.lunapic.com/editor/)
