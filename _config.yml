@@ -7,6 +7,23 @@ permalink: pretty
 cover_image: /assets/img/cover.jpeg
 timezone: +0000
 
+defaults:
+  - scope:
+      path: ""      
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Songzi Vong"
+      image: "assets/img/avatar.jpeg"
+      share: true
+  - scope:
+      path: ""      
+      type: "pages"
+    values:
+      layout: "page"
+      author: "Songzi Vong"
+      image: "assets/img/avatar.jpeg"
+
 # Gems
 plugins:
   - jekyll-gist
