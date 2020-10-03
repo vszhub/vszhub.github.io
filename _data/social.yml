@@ -1,3 +1,6 @@
+- title: Feed
+  url: /feed.xml
+  icon: fas fa-rss
 - title: Email
   url: mailto://vszhub@gmail.com
   icon: fas fa-envelope
