@@ -7,7 +7,8 @@ list.sort! { |a,b| b['subscribers'] <=> a['subscribers'] }
 list = list.select { |elem| elem['title'] != 'VSZHub' }
 
 data = "---\nlayout: page\ntitle: Following\npermalink: /following/\n---\n"
-list.each { |elem| data += "- [#{elem['title']}](#{elem['website']}) <small>(Feedly subscribers: #{elem['subscribers']})</small>\n"}
+data += "| Blogs | Feedly Subscribers |\n|:--- |:--- |\n"
+list.each { |elem| data += "| [#{elem['title']}](#{elem['website']}) | #{elem['subscribers']} |\n"}
 
 data += "\n#{Time.now}\n"
 
