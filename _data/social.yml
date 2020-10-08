@@ -7,6 +7,9 @@
 - title: Twitter
   url: https://twitter.com/vszhub
   icon: fab fa-twitter
+- title: Instagram
+  url: https://www.instagram.com/vszhub/
+  icon: fab fa-instagram
 - title: GitHub
   url: https://github.com/vszhub
   icon: fab fa-github
